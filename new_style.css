@@ -1,0 +1,91 @@
+#post_text{
+
+    resize: none;
+    height: 10px;
+
+}
+
+#fileUpload{
+
+    margin-top: 5px;
+
+}
+
+.trend{
+
+    margin-top: 10px;
+
+}
+
+.card{
+
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.post_card{
+
+    margin-top: 10px;
+
+}
+
+.post_card_info{
+
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.post_card_info img{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+#span1 a{
+
+    color: black;
+
+}
+
+#span2{
+
+    color: rgb(103, 103, 103);
+
+}
+
+#span1, #span2{
+
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+
+}
+
+#post_button_home, #submit_stories{
+
+    background-color:turquoise;
+	box-shadow: 0px 15px 20px rgba(64, 224, 208, 0.4);
+    border-radius: 5px;
+    border: none;
+    color: #2f8396;
+    width: 100px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#post_button_home:active, #submit_stories:active{
+
+    transform: translateY(3px);
+
+}
+
+.search_results_footer{
+
+    margin-top: 10px;
+
+}

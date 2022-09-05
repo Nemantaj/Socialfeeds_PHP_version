@@ -1,0 +1,193 @@
+/*Registration page styles*/
+
+@font-face {
+
+    font-family: "Robota";
+    src: url("fontawesome/Roboto-Regular.ttf");
+
+}
+
+@font-face {
+
+    font-family: "Pacifico";
+    src: url("fontawesome/Pacifico-Regular.ttf");
+
+}
+
+*{
+
+    font-family: "Robota";
+
+}
+
+#wrapper-accounts-page{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 7px;
+    margin-bottom: 100px;
+
+}
+
+.header{
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+
+}
+
+.header h1{
+
+    font-family: "Pacifico";
+    font-size: 50px;
+    background: repeating-linear-gradient(-45deg, #bcece0 0%, #36eee0 7.14%, #f651a0 14.28%,
+              #4c5270 21.4%, #2ff3e0 28.56%, #f8d210 35.7%, #fa26a0 42.84%, #f51720 50%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: slide 10s linear infinite forwards;
+}
+@keyframes slide {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 600vw;
+  }
+}
+
+
+
+.first{
+
+    padding: 20px;
+    background-color: #fdf0d5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.second{
+
+    padding: 20px;
+    background-color: #fdf0d5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    display: none;
+
+}
+
+.error-info{
+
+    background-color: #f0544f;
+	box-shadow: 0px 15px 20px rgba(240, 84, 79, 0.4);
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 36px;
+    border-radius: 5px;
+
+}
+
+.error-info p{
+
+    padding-top: 6px;
+    padding-left: 10px;
+
+}
+
+.first form, .second form{
+
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    column-gap: -5px;
+
+}
+
+.first input, .second input{
+
+    width: 100%;
+    height: 36px;
+    background-color: #fdf0d5;
+    border: 1px solid #3a3335;
+    padding-left: 10px;
+    border-radius: 5px;
+
+}
+
+.first input[type="submit"], .second input[type="submit"]{
+
+    border-radius: 5px;
+    background-color:#d81e5b;
+	box-shadow: 0px 15px 20px rgba(216, 30, 91, 0.4);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border: none !important;
+    margin-top: 10px;
+
+}
+
+.first input:focus, .second input:focus{
+
+    border-color:#c6d8d3;
+    background-color: #fbf3f4;
+    outline: none;
+
+}
+
+.first input[type="submit"]:active, .second input[type="submit"]:active{
+
+    transform: translateY(3px);
+
+}
+
+.first input[type="submit"]:focus, .second input[type="submit"]:focus{
+
+    background-color:cyan;
+	box-shadow: 0px 15px 20px rgba(0, 255, 255, 0.4);
+
+}
+
+.titlebar-acc{
+
+    margin: 10px;
+    height: 40px;
+    color: black;
+    width: 100%;
+    border-bottom: 1px solid #3a3335;
+    position: relative;
+    left: -10px;
+
+}
+
+.titlebar-acc h5{
+
+    font-weight: 600;
+
+}
+
+#wrapper-accounts-page a{
+
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#switch a{
+
+    font-size: 18px;
+    color: black;
+
+}
